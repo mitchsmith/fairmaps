@@ -4,7 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "cartogram>=1.0.0",
+    "dotenv>=0.9.9",
+    "geopandas>=1.1.1",
+    "matplotlib>=3.10.7",
+    "pygris>=0.2.0",
+    "pytidycensus>=1.2.3",
+]
 
 [dependency-groups]
 dev = [
