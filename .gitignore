@@ -12,3 +12,7 @@ wheels/
 # ENVIRONMENT VARIABLES
 .env
 .venv.env
+
+# Large data files
+data/
+logs/
