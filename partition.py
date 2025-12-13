@@ -197,7 +197,7 @@ def balance_partitions(G, partitions, n_parts=38, max_iterations=100):
     
     return partitions
 
-def visualize_partitions(tracts, partitions, output_file='partitions.png'):
+def visualize_partitions(tracts, partitions, output_file='plots/partitions.png'):
     """Visualize the partitioned districts."""
     fig, ax = plt.subplots(figsize=(15, 12))
     
